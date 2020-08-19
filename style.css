@@ -134,7 +134,7 @@ hr {
  }
 
  .container-tabs {
-  display: flex;
+    display: flex;
  }
 
 .main-button {
@@ -197,10 +197,10 @@ hr {
 }
 
 .banner-wrapper {
-      height: 30vh;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
 .banner-controls .number {
@@ -248,8 +248,6 @@ hr {
 }
 
 .sub-foot {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   color: white;
   padding: 20px;
@@ -350,10 +348,6 @@ ul.links {
   padding: 60px 0;
 }
 
-.container-tabs {
-  display: flex;
-}
-
 .bt li.active {
   opacity: 1;
 }
@@ -382,9 +376,67 @@ ul.links {
   opacity: 1;
 }
 
-
-
 .testimonial, .vertical-tabs {
   position: relative;
   overflow: hidden;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .bt > ul.links {
+    display: none;
+  }
+  .top img {
+    display: none;
+  }
+  .p-button {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .content {
+    max-width: none;
+  }
+  .banner-controls {
+    right: 0;
+  }
+  .banner-wrapper {
+    height: 100%;
+    padding: 40px 10px;
+  }
+  hr {
+    display: none;
+  }
+  .nav {
+    display: block !important;
+    text-align: center;
+    padding: 30px;
+  }
+  .nav-link {
+    margin: 30px !important;
+  }
+  .container-tabs {
+    display: block;
+  }
+  .tabs-section {
+    padding: 50px;
+  }
+  .main-button {
+    margin-bottom: 20px;
+  }
+  .footer {
+    padding: 100px 50px;
+  }
+  .vertical-tabs .right-tabs, .vertical-tabs img {
+    width: 100%;
+  }
+  .container-tabs img {
+    width: 100%;
+  }
 }
