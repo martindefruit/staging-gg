@@ -290,6 +290,7 @@ hr {
 }
 
 .c-tab.active {
+  transition: ease all 1s;
   height: 100%;
   overflow: hidden;
   opacity: 1;
@@ -370,6 +371,7 @@ ul.links {
 .right-tabs {
   padding: 40px;
   height: 100%;
+  min-height: 600px;
 }
 
 .vertical-tabs h4 {
