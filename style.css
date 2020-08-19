@@ -183,6 +183,10 @@ hr {
   bottom: 0;
 }
 
+.header h1 {
+  font-size: 4rem;
+}
+
 .number p {
   margin: 0;
 }
