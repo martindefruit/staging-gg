@@ -1,4 +1,3 @@
-
 const tabs = document.querySelectorAll(".c-tab");
 const arrows = document.querySelectorAll(".tabs-arrow")
 
