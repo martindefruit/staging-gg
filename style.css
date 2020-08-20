@@ -135,6 +135,7 @@ hr {
 
  .container-tabs {
     display: flex;
+    max-height: 540px;
  }
 
 .main-button {
@@ -390,6 +391,13 @@ ul.links {
   font-size: 25px;
   margin-right: 10px;
 }
+
+#image-serv {
+  max-height: 540px;
+  object-fit: cover;
+  transition: ease all .5s;
+}
+
 
 @media (max-width: 600px) {
   .bt > ul.links {

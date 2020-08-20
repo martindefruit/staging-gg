@@ -37,3 +37,22 @@ arrows.forEach((arrow) => {
 
 
 
+const links = document.querySelectorAll(".nav-link");
+const imgServ = document.getElementById("image-serv");
+
+console.log(links);
+
+links.forEach((link) => {
+  link.addEventListener('click', (event) => {
+    console.log(event.currentTarget.id);
+    if (event.currentTarget.id == "profile-tab") {
+      imgServ.src = "images/boat.png"
+    }
+    if (event.currentTarget.id == "contact-tab") {
+      imgServ.src = "images/car.png"
+    }
+    if (event.currentTarget.id == "home-tab") {
+      imgServ.src = "images/image-1.png"
+    }
+  });
+});
