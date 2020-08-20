@@ -393,8 +393,9 @@ ul.links {
 }
 
 #image-serv {
-  max-height: 540px;
+  height: 540px;
   object-fit: cover;
+  width: 700px;
   transition: ease all .5s;
 }
 
@@ -435,6 +436,7 @@ ul.links {
   }
   .container-tabs {
     display: block;
+    max-height: none;
   }
   .tabs-section {
     padding: 50px;
@@ -448,7 +450,7 @@ ul.links {
   .vertical-tabs .right-tabs, .vertical-tabs img {
     width: 100%;
   }
-  .container-tabs img {
+  #image-serv {
     width: 100%;
   }
   .header h1 {
